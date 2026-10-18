@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Thomas — AI security and cybersecurity</title>
+  <desc id="desc">A neon terminal inspired banner highlighting LLM security research and penetration testing.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070B18"/>
+      <stop offset=".52" stop-color="#101A37"/>
+      <stop offset="1" stop-color="#17102D"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#22D3EE"/>
+      <stop offset=".52" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+    <radialGradient id="cyanGlow">
+      <stop stop-color="#0891B2" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#0891B2" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violetGlow">
+      <stop stop-color="#7C3AED" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#93C5FD" stroke-opacity=".075" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="340" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#grid)"/>
+  <ellipse cx="200" cy="170" rx="410" ry="310" fill="url(#cyanGlow)"/>
+  <ellipse cx="1080" cy="170" rx="350" ry="300" fill="url(#violetGlow)"/>
+  <path d="M0 278H440l42-42h94" fill="none" stroke="#22D3EE" stroke-opacity=".32" stroke-width="1.5"/>
+  <path d="M1200 72H1040l-28 28h-48" fill="none" stroke="#C084FC" stroke-opacity=".36" stroke-width="1.5"/>
+  <circle cx="576" cy="236" r="3" fill="#22D3EE" filter="url(#glow)"/>
+  <circle cx="964" cy="100" r="3" fill="#C084FC" filter="url(#glow)"/>
+  <rect x="1" y="1" width="1198" height="338" rx="23" fill="none" stroke="url(#edge)" stroke-opacity=".58" stroke-width="2"/>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="74" y="82" fill="#67E8F9" font-size="13" font-weight="700" letter-spacing="4">THOMAS / DEVELOPER PROFILE</text>
+    <text x="70" y="166" fill="#F8FAFC" font-size="72" font-weight="800" letter-spacing="2">THOMAS</text>
+    <text x="74" y="208" fill="#C7D2FE" font-size="17" letter-spacing="2">BUILD · BREAK · LEARN</text>
+    <rect x="74" y="240" width="278" height="36" rx="18" fill="#0B1228" stroke="#22D3EE" stroke-opacity=".5"/>
+    <circle cx="94" cy="258" r="5" fill="#34D399" filter="url(#glow)"/>
+    <text x="110" y="263" fill="#A5F3FC" font-size="13" font-weight="600" letter-spacing="1">RESEARCH MODE: ACTIVE</text>
+
+    <g transform="translate(690 55)">
+      <rect width="440" height="230" rx="18" fill="#080D1C" fill-opacity=".74" stroke="#64748B" stroke-opacity=".5"/>
+      <path d="M1 48H439" stroke="#334155"/>
+      <circle cx="24" cy="24" r="5" fill="#FB7185"/>
+      <circle cx="43" cy="24" r="5" fill="#FBBF24"/>
+      <circle cx="62" cy="24" r="5" fill="#34D399"/>
+      <text x="88" y="29" fill="#94A3B8" font-size="12" font-family="monospace">current_focus.md</text>
+      <text x="28" y="86" fill="#67E8F9" font-size="12" font-weight="700" letter-spacing="2">01 / LLM SECURITY</text>
+      <text x="28" y="111" fill="#E2E8F0" font-size="17" font-weight="600">AI agents · prompt injection</text>
+      <text x="28" y="154" fill="#C084FC" font-size="12" font-weight="700" letter-spacing="2">02 / CYBERSECURITY</text>
+      <text x="28" y="179" fill="#E2E8F0" font-size="17" font-weight="600">Security research · pentesting</text>
+      <path d="M28 202H390" stroke="url(#edge)" stroke-opacity=".66" stroke-width="2"/>
+      <text x="28" y="220" fill="#64748B" font-size="10" font-family="monospace">JAVA / UNITY / RUST / AI</text>
+    </g>
+    <g fill="#67E8F9" opacity=".75">
+      <circle cx="620" cy="54" r="2"/><circle cx="645" cy="84" r="1.5"/>
+      <circle cx="617" cy="124" r="1.5"/><circle cx="654" cy="282" r="2"/>
+    </g>
+    <g fill="#C084FC" opacity=".8">
+      <circle cx="1156" cy="116" r="2"/><circle cx="1172" cy="139" r="1.5"/>
+      <circle cx="1148" cy="266" r="1.5"/>
+    </g>
+  </g>
+</svg>
