@@ -1,49 +1,65 @@
 <div align="center">
-  <img src="assets/profile-banner.svg" alt="Thomas — LLM Security Research and Cybersecurity" width="100%">
+  <img src="assets/profile-banner.svg" alt="An original dusk landscape with mountains, a forest, a glowing observatory, and fireflies" width="100%">
+  <p><strong>Turning curiosity into software — and asking how to make it safer.</strong><br>
+  <sub>会用 AI 把想法变成作品，也认真研究怎样让它们更安全。</sub></p>
 </div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2600&pause=700&color=67E8F9&center=true&vCenter=true&width=860&lines=Currently+researching+LLM+security;Exploring+AI+agent+security+%26+prompt+injection;Learning+cybersecurity+%26+penetration+testing;Java+%C2%B7+Unity+%C2%B7+Rust+%C2%B7+AI" alt="Currently researching LLM security, AI agent security, and penetration testing">
-</div>
+## 👋 Hi, I'm Thomas
+
+I'm a student developer and **vibe coder**: I use natural language to direct AI, shape the product, and turn ideas into software people can actually run. My path has taken me from Python and C++ to Java full-stack development and Unity; lately, I'm exploring AI agents and software security.
+
+<p align="center">
+  <a href="https://thomas-ai.space/"><img src="https://img.shields.io/badge/🌐_My_website-thomas--ai.space-315B56?style=for-the-badge" alt="Thomas's website"></a>
+  <a href="https://thomas-ai.space/code"><img src="https://img.shields.io/badge/🧭_Project_archive-explore-BC754F?style=for-the-badge" alt="Project archive"></a>
+</p>
+
+## 🌱 VibeGuard · Featured Project
 
 <table>
   <tr>
-    <td width="38%" align="center" valign="middle">
-      <img src="assets/thomas-at-cafe.jpg" alt="Anime-style illustration of Thomas working on a laptop at a café" width="100%">
+    <td width="22%" align="center" valign="middle">
+      <a href="https://github.com/lindenthomaslin/vibeguard">
+        <img src="https://raw.githubusercontent.com/lindenthomaslin/vibeguard/master/icon.jpg" alt="VibeGuard project icon" width="145">
+      </a>
     </td>
-    <td width="62%" valign="middle">
-      <h2>👋 Hi, I'm Thomas</h2>
-      <p>I'm a student developer focused on <strong>Java full-stack development</strong> and <strong>Unity game clients</strong>.</p>
-      <p>I'm currently researching <strong>LLM security</strong>, especially <strong>AI agent security and prompt injection</strong>, while learning about <strong>cybersecurity and penetration testing</strong>.</p>
-      <p>I enjoy turning research questions and new ideas into runnable experiments, tools, and projects.</p>
+    <td width="78%" valign="middle">
+      <h3>A little guardian for AI-built code.</h3>
+      <p><strong>VibeGuard</strong> is a terminal security reviewer for vibe-coded projects. It checks a repository, explains risks with evidence, and suggests fixes you can inspect.</p>
+      <p>Read-only by default: review the proposed diff and approve it before VibeGuard writes anything. Local rules work without model calls; an optional AI review can investigate the checklist further.</p>
       <p>
-        <a href="https://thomas-ai.space/"><img src="https://img.shields.io/badge/Official%20Website-thomas--ai.space-67E8F9?style=for-the-badge&logo=astro&logoColor=0B1020" alt="Official website"></a>
-        <a href="https://thomas-ai.space/code"><img src="https://img.shields.io/badge/All%20Projects-Project%20Archive-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Project archive"></a>
+        <a href="https://thomas-ai.space/vibeguard"><strong>Explore the project</strong></a> ·
+        <a href="https://github.com/lindenthomaslin/vibeguard"><strong>Source code</strong></a> ·
+        <a href="https://github.com/lindenthomaslin/vibeguard/blob/master/README.zh-CN.md"><strong>中文文档</strong></a>
+      </p>
+      <p>
+        <a href="https://github.com/lindenthomaslin/vibeguard/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/lindenthomaslin/vibeguard/actions/workflows/ci.yml/badge.svg"></a>
+        <img alt="Rust 2024" src="https://img.shields.io/badge/Rust-2024-315B56">
+        <img alt="MIT license" src="https://img.shields.io/badge/License-MIT-BC754F">
       </p>
     </td>
   </tr>
 </table>
 
-## 🎯 Current Research
+## 🔭 What I'm exploring
 
 <div align="center">
-  <img src="https://img.shields.io/badge/LLM%20Security-Research-0891B2?style=for-the-badge&logo=openai&logoColor=white" alt="LLM security research">
-  <img src="https://img.shields.io/badge/AI%20Agents-Prompt%20Injection-6366F1?style=for-the-badge&logo=probot&logoColor=white" alt="AI agent security and prompt injection">
-  <img src="https://img.shields.io/badge/Cybersecurity-Penetration%20Testing-C026D3?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Cybersecurity and penetration testing">
+  <img src="https://img.shields.io/badge/LLM%20security-Research-315B56?style=for-the-badge" alt="LLM security research">
+  <img src="https://img.shields.io/badge/AI%20agents-Prompt%20injection-547C72?style=for-the-badge" alt="AI agent security and prompt injection">
+  <img src="https://img.shields.io/badge/Secure%20software-Experiments-BC754F?style=for-the-badge" alt="Secure software experiments">
 </div>
 
-## ⚡ Featured Open Source
+## 🧰 More open source
 
 <div align="center">
   <a href="https://github.com/lindenthomaslin/CTF-SeclIDE">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=lindenthomaslin&repo=CTF-SeclIDE&show_owner=true&theme=github_dark&bg_color=0B1020&title_color=67E8F9&icon_color=A78BFA&text_color=C7D2FE&border_color=164E63" width="49%" alt="CTF-SecIDE repository card">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=lindenthomaslin&repo=CTF-SeclIDE&show_owner=true&theme=github_dark&bg_color=142B31&title_color=F8D99B&icon_color=8FD3B0&text_color=E3EEE5&border_color=547C72" width="49%" alt="CTF-SecIDE repository card">
   </a>
   <a href="https://github.com/lindenthomaslin/context-injection-lab">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=lindenthomaslin&repo=context-injection-lab&show_owner=true&theme=github_dark&bg_color=0B1020&title_color=67E8F9&icon_color=A78BFA&text_color=C7D2FE&border_color=164E63" width="49%" alt="context-injection-lab repository card">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=lindenthomaslin&repo=context-injection-lab&show_owner=true&theme=github_dark&bg_color=142B31&title_color=F8D99B&icon_color=8FD3B0&text_color=E3EEE5&border_color=547C72" width="49%" alt="context-injection-lab repository card">
   </a>
 </div>
 
-<p align="center"><sub>Security tooling · LLM agent research · Open source experiments</sub></p>
+<p align="center"><sub>Security tools · LLM agent research · Small experiments with big questions</sub></p>
 
 ## 🚀 More Projects
 
@@ -60,8 +76,8 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lindenthomaslin&show_icons=true&hide_border=true&bg_color=0B1020&title_color=67E8F9&text_color=C7D2FE&icon_color=A78BFA&rank_icon=github" height="165" alt="GitHub stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lindenthomaslin&layout=compact&hide_border=true&bg_color=0B1020&title_color=67E8F9&text_color=C7D2FE&langs_count=6" height="165" alt="Top languages">
+  <img src="https://github-readme-stats.vercel.app/api?username=lindenthomaslin&show_icons=true&hide_border=true&bg_color=142B31&title_color=F8D99B&text_color=E3EEE5&icon_color=8FD3B0&rank_icon=github" height="165" alt="GitHub stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lindenthomaslin&layout=compact&hide_border=true&bg_color=142B31&title_color=F8D99B&text_color=E3EEE5&langs_count=6" height="165" alt="Top languages">
 </div>
 
 <div align="center">
@@ -71,5 +87,5 @@
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0891B2,100:0B1020&height=100&section=footer" alt="footer" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:BC754F,100:142B31&height=100&section=footer" alt="footer" width="100%">
 </div>

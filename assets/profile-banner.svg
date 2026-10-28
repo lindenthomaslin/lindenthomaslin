@@ -1,72 +1,93 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
-  <title id="title">Thomas — AI security and cybersecurity</title>
-  <desc id="desc">A neon terminal inspired banner highlighting LLM security research and penetration testing.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Thomas — a curious builder in a little world of code</title>
+  <desc id="desc">An original hand-drawn fantasy landscape at dusk, with layered mountains, a forest, a glowing observatory, and drifting fireflies.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#070B18"/>
-      <stop offset=".52" stop-color="#101A37"/>
-      <stop offset="1" stop-color="#17102D"/>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#17233C"/>
+      <stop offset=".56" stop-color="#4E6675"/>
+      <stop offset="1" stop-color="#E89B70"/>
     </linearGradient>
-    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#22D3EE"/>
-      <stop offset=".52" stop-color="#6366F1"/>
-      <stop offset="1" stop-color="#C084FC"/>
+    <linearGradient id="sun" x1="0" y1="0" x2=".8" y2="1">
+      <stop stop-color="#FFF4BD"/>
+      <stop offset="1" stop-color="#F9B66E"/>
     </linearGradient>
-    <radialGradient id="cyanGlow">
-      <stop stop-color="#0891B2" stop-opacity=".34"/>
-      <stop offset="1" stop-color="#0891B2" stop-opacity="0"/>
+    <linearGradient id="farHill" x1="0" y1="0" x2=".8" y2="1">
+      <stop stop-color="#587B78"/>
+      <stop offset="1" stop-color="#355C61"/>
+    </linearGradient>
+    <linearGradient id="nearHill" x1="0" y1="0" x2=".7" y2="1">
+      <stop stop-color="#254C50"/>
+      <stop offset="1" stop-color="#142E3A"/>
+    </linearGradient>
+    <radialGradient id="sunGlow">
+      <stop stop-color="#FFE5A5" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#FFE5A5" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="violetGlow">
-      <stop stop-color="#7C3AED" stop-opacity=".28"/>
-      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#93C5FD" stroke-opacity=".075" stroke-width="1"/>
-    </pattern>
-    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <clipPath id="frame"><rect width="1200" height="360" rx="24"/></clipPath>
   </defs>
-  <rect width="1200" height="340" rx="24" fill="url(#bg)"/>
-  <rect width="1200" height="340" rx="24" fill="url(#grid)"/>
-  <ellipse cx="200" cy="170" rx="410" ry="310" fill="url(#cyanGlow)"/>
-  <ellipse cx="1080" cy="170" rx="350" ry="300" fill="url(#violetGlow)"/>
-  <path d="M0 278H440l42-42h94" fill="none" stroke="#22D3EE" stroke-opacity=".32" stroke-width="1.5"/>
-  <path d="M1200 72H1040l-28 28h-48" fill="none" stroke="#C084FC" stroke-opacity=".36" stroke-width="1.5"/>
-  <circle cx="576" cy="236" r="3" fill="#22D3EE" filter="url(#glow)"/>
-  <circle cx="964" cy="100" r="3" fill="#C084FC" filter="url(#glow)"/>
-  <rect x="1" y="1" width="1198" height="338" rx="23" fill="none" stroke="url(#edge)" stroke-opacity=".58" stroke-width="2"/>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="url(#sky)"/>
+    <circle cx="916" cy="144" r="116" fill="url(#sunGlow)"/>
+    <circle cx="916" cy="144" r="43" fill="url(#sun)"/>
 
-  <g font-family="Inter,Segoe UI,Arial,sans-serif">
-    <text x="74" y="82" fill="#67E8F9" font-size="13" font-weight="700" letter-spacing="4">THOMAS / DEVELOPER PROFILE</text>
-    <text x="70" y="166" fill="#F8FAFC" font-size="72" font-weight="800" letter-spacing="2">THOMAS</text>
-    <text x="74" y="208" fill="#C7D2FE" font-size="17" letter-spacing="2">BUILD · BREAK · LEARN</text>
-    <rect x="74" y="240" width="278" height="36" rx="18" fill="#0B1228" stroke="#22D3EE" stroke-opacity=".5"/>
-    <circle cx="94" cy="258" r="5" fill="#34D399" filter="url(#glow)"/>
-    <text x="110" y="263" fill="#A5F3FC" font-size="13" font-weight="600" letter-spacing="1">RESEARCH MODE: ACTIVE</text>
+    <g fill="#F8E7C9" opacity=".84">
+      <path d="M615 90c13-17 39-17 51-2 18-8 39 3 39 20h-98c-10-5-5-15 8-18z"/>
+      <path d="M1010 74c10-13 30-13 39-1 14-6 31 2 31 15h-76c-8-4-4-12 6-14z" opacity=".63"/>
+    </g>
+    <g fill="none" stroke="#FBE6C2" stroke-linecap="round" opacity=".48">
+      <path d="M548 109c22-8 42-8 62 0" stroke-width="2"/>
+      <path d="M1042 107c17-6 32-5 46 1" stroke-width="1.5"/>
+    </g>
 
-    <g transform="translate(690 55)">
-      <rect width="440" height="230" rx="18" fill="#080D1C" fill-opacity=".74" stroke="#64748B" stroke-opacity=".5"/>
-      <path d="M1 48H439" stroke="#334155"/>
-      <circle cx="24" cy="24" r="5" fill="#FB7185"/>
-      <circle cx="43" cy="24" r="5" fill="#FBBF24"/>
-      <circle cx="62" cy="24" r="5" fill="#34D399"/>
-      <text x="88" y="29" fill="#94A3B8" font-size="12" font-family="monospace">current_focus.md</text>
-      <text x="28" y="86" fill="#67E8F9" font-size="12" font-weight="700" letter-spacing="2">01 / LLM SECURITY</text>
-      <text x="28" y="111" fill="#E2E8F0" font-size="17" font-weight="600">AI agents · prompt injection</text>
-      <text x="28" y="154" fill="#C084FC" font-size="12" font-weight="700" letter-spacing="2">02 / CYBERSECURITY</text>
-      <text x="28" y="179" fill="#E2E8F0" font-size="17" font-weight="600">Security research · pentesting</text>
-      <path d="M28 202H390" stroke="url(#edge)" stroke-opacity=".66" stroke-width="2"/>
-      <text x="28" y="220" fill="#64748B" font-size="10" font-family="monospace">JAVA / UNITY / RUST / AI</text>
+    <path d="M0 247 126 223l69 13 102-25 123 27 102-20 94 20 103-91 116 84 86-50 111 80v100H0z" fill="#687E7B" opacity=".66"/>
+    <path d="m266 122 31-29 30 31-28-13-17 14zM610 156l24-25 29 29-25-12-14 13zM861 151l23-23 27 26-24-11-13 12z" fill="#E9E5D8" opacity=".72"/>
+    <path d="M0 269c118-54 203-55 302-15 80 32 142 18 218-14 102-43 172-34 254 12 91 51 169 43 249 1 70-37 121-36 177-4v111H0z" fill="url(#farHill)"/>
+    <path d="M0 308c111-46 210-44 304-2 94 42 166 32 251-11 95-48 164-34 250 12 89 47 171 37 251-4 58-30 104-32 144-11v68H0z" fill="#315B56"/>
+
+    <g fill="#173B40" opacity=".92">
+      <path d="m54 298 28-76 28 76h-18l18 31H54l18-31z"/>
+      <path d="m112 304 21-58 22 58h-14l14 25h-43l14-25z"/>
+      <path d="m1054 277 32-87 32 87h-21l21 37h-64l21-37z"/>
+      <path d="m1121 296 25-68 25 68h-17l17 30h-50l17-30z"/>
+      <path d="m948 305 20-53 21 53h-14l14 24h-42l14-24z"/>
+      <path d="m211 315 19-51 19 51h-13l13 23h-38l13-23z"/>
     </g>
-    <g fill="#67E8F9" opacity=".75">
-      <circle cx="620" cy="54" r="2"/><circle cx="645" cy="84" r="1.5"/>
-      <circle cx="617" cy="124" r="1.5"/><circle cx="654" cy="282" r="2"/>
+
+    <g transform="translate(842 209)">
+      <path d="M0 57 48 30l54 27v66H0z" fill="#253C48" stroke="#F4D6A0" stroke-opacity=".75" stroke-width="2"/>
+      <path d="m-8 59 56-36 62 36-8 8-54-30L0 68z" fill="#C97759" stroke="#F4D6A0" stroke-opacity=".7" stroke-width="2"/>
+      <rect x="39" y="77" width="25" height="46" rx="12" fill="#132A39" stroke="#E8C98F" stroke-width="2"/>
+      <rect x="68" y="70" width="17" height="22" rx="3" fill="#FFD98E" filter="url(#softGlow)"/>
+      <path d="M73 81h7m-7 4h4" stroke="#52736B" stroke-width="2" stroke-linecap="round"/>
+      <path d="M48 30V12h12v25" fill="#253C48" stroke="#F4D6A0" stroke-width="2"/>
+      <path d="M52 13c-5-7 4-9 0-15m9 15c-5-7 4-9 0-15" fill="none" stroke="#F8E7C9" stroke-opacity=".72" stroke-width="2" stroke-linecap="round"/>
     </g>
-    <g fill="#C084FC" opacity=".8">
-      <circle cx="1156" cy="116" r="2"/><circle cx="1172" cy="139" r="1.5"/>
-      <circle cx="1148" cy="266" r="1.5"/>
+
+    <path d="M0 340c158-31 278-22 378 5 126 34 248 25 369-2 147-34 286-28 453 5v20H0z" fill="url(#nearHill)"/>
+    <g fill="#FFE39B" filter="url(#softGlow)">
+      <circle cx="520" cy="239" r="2.2"/><circle cx="574" cy="281" r="1.8"/>
+      <circle cx="756" cy="226" r="2"/><circle cx="796" cy="290" r="1.7"/>
+      <circle cx="1014" cy="247" r="2"/><circle cx="1090" cy="173" r="1.8"/>
+      <circle cx="702" cy="160" r="1.6"/><circle cx="1157" cy="229" r="1.5"/>
+    </g>
+    <g fill="none" stroke="#F4D99F" stroke-linecap="round" opacity=".72">
+      <path d="M492 258c16-8 24-8 37-1"/>
+      <path d="M726 247c13-7 21-7 31-1" stroke-width="1.5"/>
+      <path d="M1001 269c13-6 20-6 29-1" stroke-width="1.5"/>
+    </g>
+
+    <rect x="1" y="1" width="1198" height="358" rx="23" fill="none" stroke="#F5D6A2" stroke-opacity=".45" stroke-width="2"/>
+    <g font-family="Inter,Segoe UI,Arial,sans-serif">
+      <text x="76" y="86" fill="#FFE2A6" font-size="13" font-weight="700" letter-spacing="4">A CURIOUS BUILDER'S FIELD NOTES</text>
+      <text x="70" y="166" fill="#FFF9EE" font-size="74" font-weight="800" letter-spacing="2">THOMAS</text>
+      <text x="76" y="207" fill="#FBE7C8" font-size="17" font-weight="600" letter-spacing="1.6">VIBE CODER · STUDENT DEVELOPER</text>
+      <text x="76" y="239" fill="#D8EEE0" font-size="15" letter-spacing=".8">AI  /  SECURITY  /  CREATIVE CODE</text>
+      <path d="M76 264h256" stroke="#FFE2A6" stroke-opacity=".7" stroke-width="2"/>
+      <text x="76" y="292" fill="#FFF0D6" font-size="13" letter-spacing=".8">A LITTLE WONDER. A LOT OF CURIOSITY.</text>
     </g>
   </g>
 </svg>
